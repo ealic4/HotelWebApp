@@ -1,0 +1,57 @@
+
+#email,#password-field{
+    border: 2px solid  #D3D3D3;
+    border-radius: 30px;
+    width: 280px;
+    height: 40px;
+    margin-top: 7px;
+    font-size: 17px;
+   
+    
+}
+
+#singin,#singup{
+    width: 285px;
+    border-radius: 30px;
+    margin-top: 7px;
+    border: 2px solid #0071c2;
+    background-color:  #0071c2;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+   
+}
+
+
+.labela{
+    display: block;
+    padding-left: 90px;
+
+    padding-top: 35px ;
+    font-size: 20px;
+   
+    
+}
+#singup{
+    background-color: #42b72a;
+    border: 2px solid #42b72a;
+    
+}
+
+.forgot{
+    display: block;
+    margin: 5px 0px 0px 100px;
+    font-size: 18px;
+    color :whitesmoke;
+}
+
+
+
+    
+
+
+h1{
+    color: white;
+    padding-left: 100px;
+    font-style: italic;
+}

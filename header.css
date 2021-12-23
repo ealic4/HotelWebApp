@@ -1,0 +1,65 @@
+header{
+    height: 130px;
+    background-color: #0071c2;
+
+}
+button{
+    background-color: #0071c2;
+    border: #0071c2;
+    font-size: 25px;
+    height: 30px;
+  
+}
+a{
+    text-decoration: none;
+    color: white;
+   
+}
+.stil{
+    padding-left: 60px;
+}
+
+
+.slika{
+    padding-left: 340px;
+   
+   
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 290px  auto auto;
+}
+#login{
+    padding-top: 10px;
+}
+#registracija
+{
+   padding-left: 50px;
+   padding-top: 10px;
+}
+#cikica{
+    padding-top: 5px;
+    margin-left: 310px;
+    padding-top: 10px;
+}
+.linija1{
+    width:620px;
+    background-color: white;
+    height: 2px;
+  
+    
+   
+}
+.linija2{
+    width:640px;
+    background-color: white;
+    height: 2px;
+   
+    
+   
+}
+.bvp{
+    padding-top: 10px;
+}

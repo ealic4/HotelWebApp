@@ -1,3 +1,26 @@
+#pozadina{
+    background-color: #d9e7fc; 
+    display: grid;
+    grid-template-columns: 1100px auto;
+    height: 450px;
+    
+}
+
+#naslov{
+    color: #0071c2;
+    font-size: 50px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+#naslov1,#naslov2{
+    color: #0071c2;
+    font-size: 40px;
+    padding-left: 120px;
+   
+}
+
+
+
 
 #email,#password-field{
     border: 2px solid  #D3D3D3;
@@ -42,16 +65,11 @@
     display: block;
     margin: 5px 0px 0px 100px;
     font-size: 18px;
-    color :whitesmoke;
+    color: #0071c2;
 }
 
-
-
-    
-
-
-h1{
-    color: white;
+#l{
+    color: #0071c2;
     padding-left: 100px;
     font-style: italic;
 }

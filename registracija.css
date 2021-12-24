@@ -1,0 +1,46 @@
+#pozadina{
+    background-color: #d9e7fc; 
+    display: grid;
+    grid-template-columns: 1100px auto;
+    height: 450px;
+    
+}
+#name,#lastname,#email,#password-field,#number,#singin{
+    border: 2px solid  #D3D3D3;
+    border-radius: 30px;
+    width: 280px;
+    height: 40px;
+    margin-top: 7px;
+    font-size: 17px;
+  
+      
+}
+
+
+#singin{
+    width: 285px;
+    border: 2px solid #0071c2;
+    background-color:  #0071c2;
+    color: white;
+    font-size: 20px;
+}
+
+
+#naslov4{
+    color: #0071c2;
+    padding-left: 50px;
+    font-style: italic;
+}
+
+#naslov{
+    color: #0071c2;
+    font-size: 50px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+#naslov1,#naslov2{
+    color: #0071c2;
+    font-size: 40px;
+    padding-left: 120px;
+   
+}

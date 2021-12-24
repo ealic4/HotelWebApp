@@ -1,0 +1,56 @@
+.pozadina{
+    top:0;
+    background-image: url("image/hotel.jpg");
+    background-repeat: no-repeat;
+    background-size: 1550px 550px;
+    width: 100%;
+    height: 550px;
+    
+    display: grid;
+    grid-template-columns: 1300px  auto;
+
+}
+#rez{
+    background-color: white;
+    color: #0071c2;
+    border-radius: 15px;
+    height: 60px;
+    width: 150px;
+    margin-left:600px;
+}
+#rez:hover{
+    background-color: #0071c2;
+}
+#rezlink{
+    color: #0071c2;
+}
+#rezlink:hover{
+    color: white;
+}
+#title{
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+    font-size: 80px;
+   
+}
+.bh{
+    border-radius: 30px;
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+}
+.bh:hover{
+    background-color: white;
+}
+.hlink:visited{
+    color:white;
+    
+}
+.hlink:hover{
+    color: #0071c2;
+    
+}
+.divpom{
+    margin-top: 100px;
+}

@@ -14,4 +14,9 @@ footer{
 }
 .boja{
     color: white;
+    text-decoration: none;
+}
+.pozadinskabojaslika{
+    background-color: #0071c2;
+    border: #0071c2;
 }

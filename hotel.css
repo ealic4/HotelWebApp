@@ -2,9 +2,9 @@
     top:0;
     background-image: url("image/hotel.jpg");
     background-repeat: no-repeat;
-    background-size: 1550px 550px;
+    background-size: 1550px 590px;
     width: 100%;
-    height: 550px;
+    height: 590px;
     
     display: grid;
     grid-template-columns: 1300px  auto;
@@ -38,7 +38,7 @@
     border-radius: 30px;
     margin-top: 10px;
     height: 40px;
-    width: 150px;
+    width: 130px;
 }
 .bh:hover{
     background-color: white;
@@ -53,4 +53,9 @@
 }
 .divpom{
     margin-top: 100px;
+}
+#paragraf{
+    color: #0071c2;
+    font-size: 20px; 
+    text-align: center;
 }

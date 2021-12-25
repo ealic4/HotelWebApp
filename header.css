@@ -1,35 +1,33 @@
+/* Prvi dio header-a */
 header{
-    height: 130px;
+    height: 135px;
     background-color: #0071c2;
 
 }
-button{
-    background-color: #0071c2;
-    border: #0071c2;
-    font-size: 25px;
-    height: 30px;
-  
-}
-a{
-    text-decoration: none;
-    color: white;
-   
-}
-.stil{
-    padding-left: 60px;
-}
-
-
-.slika{
-    padding-left: 340px;
-   
-   
-}
-
 
 .grid{
     display: grid;
     grid-template-columns: 290px  auto auto;
+}
+.buttonsvi{
+    background-color: #0071c2;
+    border: #0071c2;
+    font-size: 25px;
+    height: 30px;
+    padding-top: 10px;
+  
+}
+.linkovi{
+    text-decoration: none;
+    color: white;
+}
+#logo{
+    padding-left: 340px;
+}
+#cikica{
+    padding-top: 5px;
+    margin-left: 310px;
+    padding-top: 10px;
 }
 #login{
     padding-top: 10px;
@@ -39,11 +37,7 @@ a{
    padding-left: 50px;
    padding-top: 10px;
 }
-#cikica{
-    padding-top: 5px;
-    margin-left: 310px;
-    padding-top: 10px;
-}
+
 .linija1{
     width:620px;
     background-color: white;
@@ -60,6 +54,76 @@ a{
     
    
 }
-.bvp{
-    padding-top: 10px;
+/* Drugi dio header-a */
+
+#glavnidiv{
+    margin-top: -20px;
+}
+#glavnalista{
+    display: inline-flex;
+    list-style-type: none;
+   
+}
+
+.pomocneliste{
+    list-style-type: none;
+}
+.pomocnidiv{
+    display: none;
+}
+#glavnidiv ul li:hover .pomocnidiv{
+    display: block;
+    position: absolute;
+    background-color: #0071c2;
+    text-align: left;  
+}
+#glavnidiv ul li:hover .pomocnidiv ul{
+    display: block;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+#glavnidiv ul li:hover .pomocnidiv ul li{
+   width: 200px;
+   padding: 5px;
+   border-bottom: 1px solid white;
+   background: transparent;
+   border-radius: 0;
+   text-align: left;
+}
+.linkovi1{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    padding-left: 22px;
+}
+.linkovi2{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+#linkovi3{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+   
+}
+
+
+.ka{
+    margin-left: -35px;
+}
+.bojenje{
+    height: 30px;
+    width: fit-content;
+
+}
+#bojenje:hover{
+    background-color: white;
+    
+    
+}
+#bojenje:hover #linkovi3{
+    color: #0071c2;
+    
 }

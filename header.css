@@ -2,6 +2,7 @@
 header{
     height: 135px;
     background-color: #0071c2;
+    width: 100%;
 
 }
 
@@ -116,6 +117,7 @@ header{
 .bojenje{
     height: 30px;
     width: fit-content;
+    
 
 }
 #bojenje:hover{

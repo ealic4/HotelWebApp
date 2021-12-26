@@ -1,0 +1,63 @@
+#pozadina{
+    background-image: url("image/Sobastandard/soba-standard-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 1550px 590px;
+    width: 100%;
+    height: 590px;
+    display: grid;
+    grid-template-columns: auto ;
+    
+    
+}
+#naslovAS{
+  color: white;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 370px;
+
+}
+#linkAS{
+    padding: 5px  10px 5px 10px;
+    border-radius: 15px;
+    font-size: 40px;
+    text-decoration: none;
+    background-color: #0071c2;
+    color: white;
+}
+#linkAS:hover{
+    background-color:white;
+    color:#0071c2;
+    
+}
+#rezAS{
+    height:60px;
+    margin-left: 650px; 
+    margin-top: -40px;
+   
+   
+}
+#paragraf{
+    text-align: center;
+    color: #0071c2;
+    font-size: 30px;
+   
+    
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #d9e7fc;
+    
+}
+.paragrafi{
+    color: #0071c2;
+    font-size: 30px;
+    padding-left: 80px;
+}
+#titleAS{
+    color: #0071c2;
+    font-size: 53px;
+    text-align: center;
+    padding-top: 50px;
+}

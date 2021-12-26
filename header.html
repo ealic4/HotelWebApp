@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <script src="https://morgan3d.github.io/include.js/include.min.js"></script>
         <link rel="stylesheet" href="header.css">
+        <script src="skripta_login_registracija.js"></script>
 
         <title>Header</title>
     </head>
@@ -38,30 +39,31 @@
                                 height="25"></a>
                         <a class="linkovi" href=""></a>
                     </button>
-
-                    <button id="login" class="buttonsvi">
-                        <a class="linkovi" href="login.html">Login</a>
-                    </button>
-
-                    <button id="registracija" class="buttonsvi">
-                        <a class="linkovi" href="registracija.html">Registracija</a>
-                    </button>
-
+                    <button id="login" class="buttonsvi" onclick="OpenWindowLogin()">Login</button>
+                    <button id="registracija" class="buttonsvi" onclick="OpenWindowRegistration()">Registracija</button>
                     <hr class="linija2">
                 </div>
             </div>
 
             <!-- Drugi dio headera-a -->
-            <div id = "glavnidiv">
+            <div id="glavnidiv">
                 <ul id="glavnalista">
-                    <li class="ka"><img src = "image/ka.PNG" width="38" height="27" >
+                    <li class="ka"><img src="image/ka.PNG" width="38" height="27">
                         <a class="linkovi2" href="hotel.html">Hotel</a>
-                        <div class = "pomocnidiv">
+                        <div class="pomocnidiv">
                             <ul class="pomocneliste">
-                                <li><div id = "bojenje"><a id ="linkovi3" href="galerija.html">Galerija</a></div></li>
-                                <li><div id = "bojenje"><a id ="linkovi3" href="ponude.html">Ponude</a></div></li>
-                                <li><div id = "bojenje"><a id ="linkovi3" href="cjenovnik.html">Cjenovnik</a></div></li>
-                                <li><div id = "bojenje"><a id ="linkovi3" href="rezervacija.html">Rezervacija</a></div></li>
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="galerija.html">Galerija</a></div>
+                                </li>
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="ponude.html">Ponude</a></div>
+                                </li>
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="cjenovnik.html">Cjenovnik</a></div>
+                                </li>
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="rezervacija.html">Rezervacija</a></div>
+                                </li>
                             </ul>
                         </div>
 
@@ -71,12 +73,22 @@
 
                 <ul id="glavnalista">
                     <li><a class="linkovi1" href="sobe & apartmani.html">Sobe & Apartmani</a>
-                        <div class = "pomocnidiv">
+                        <div class="pomocnidiv">
                             <ul class="pomocneliste">
-                                <li><div id = "bojenje"><a id ="linkovi3" href="apartman studio.html">Apartman Studio</a></div></li>
-                                <li><div id = "bojenje"><a id ="linkovi3" href="apartman family.html">Apartman Family</a></div></li>
-                                <li><div id = "bojenje"><a id ="linkovi3" href="soba comfort.html">Soba Comfort</a></div></li>
-                                <li><div id = "bojenje"><a id ="linkovi3" href="soba standard.html">Soba Standard</a></div></li>
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="apartman studio.html">Apartman Studio</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="apartman family.html">Apartman Family</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="soba comfort.html">Soba Comfort</a></div>
+                                </li>
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="soba standard.html">Soba Standard</a></div>
+                                </li>
                             </ul>
                         </div>
 
@@ -85,72 +97,141 @@
 
                 <ul id="glavnalista">
                     <li><a class="linkovi1" href="hrana & piće.html">Hrana & Piće</a>
-                        <div class = "pomocnidiv">
+                        <div class="pomocnidiv">
                             <ul class="pomocneliste">
-                                <li><div id = "bojenje"><a id ="linkovi3" href="restoran.html">Restoran</a></div></li>
-                                <li><div id = "bojenje"><a id ="linkovi3" href="lobby lounge cafe.html">Lobby Lounge Cafe</a></div></li>
-                                <li><div id = "bojenje"><a id ="linkovi3" href="Wellness & spa bar.html">Wellness & Spa bar</a></div></li>
-                                <li><div id = "bojenje"><a id ="linkovi3" href="pub grizzly.html">Pub Grizzly</a></div></li>
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="restoran.html">Restoran</a></div>
+                                </li>
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="lobby lounge cafe.html">Lobby Lounge
+                                            Cafe</a></div>
+                                </li>
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="Wellness & spa bar.html">Wellness & Spa
+                                            bar</a></div>
+                                </li>
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="pub grizzly.html">Pub Grizzly</a></div>
+                                </li>
                             </ul>
                         </div>
 
                     </li>
                 </ul>
-          
 
 
-            <ul id="glavnalista">
-                <li><a class="linkovi1" href="wellness & spa.html">Wellness & Spa</a>
-                    <div class = "pomocnidiv">
-                        <ul class="pomocneliste">
-                            <li><div id = "bojenje"><a id ="linkovi3" href="relax.html">Relax</a></div></li>
-                            <li><div id = "bojenje"><a id ="linkovi3" href="bazen & jacuzzi.html">Bazen & Jacuzzi</a></div></li>
-                            <li><div id = "bojenje"><a id ="linkovi3" href="wellness & spa bar.html">Wellness & Spa bar</a></div></li>
-                            <li><div id = "bojenje"><a id ="linkovi3" href="fitness studio.html">Fitness studio</a></div></li>
-                        </ul>
-                    </div>
 
-                </li>
-            </ul>
+                <ul id="glavnalista">
+                    <li><a class="linkovi1" href="wellness & spa.html">Wellness & Spa</a>
+                        <div class="pomocnidiv">
+                            <ul class="pomocneliste">
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="relax.html">Relax</a></div>
+                                </li>
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="bazen & jacuzzi.html">Bazen & Jacuzzi</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="wellness & spa bar.html">Wellness & Spa
+                                            bar</a></div>
+                                </li>
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="fitness studio.html">Fitness studio</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
 
-            <ul id="glavnalista">
-                <li><a class="linkovi1" href="sastanci & događaji.html">Sastanci & Događaji</a>
-                    <div class = "pomocnidiv">
-                        <ul class="pomocneliste">
-                            <li><div id = "bojenje"><a id ="linkovi3" href="sobe za sastanke.html">Sobe za sastanke</a></div></li>
-                            <li><div id = "bojenje"><a id ="linkovi3" href="specijalni događaji.html">Specijalni događaji</a></div></li>
-                            <li><div id = "bojenje"><a id ="linkovi3" href="event planeri.html">Event planeri</a></div></li>
-                        </ul>
-                    </div>
+                    </li>
+                </ul>
 
-                </li>
-            </ul>
+                <ul id="glavnalista">
+                    <li><a class="linkovi1" href="sastanci & događaji.html">Sastanci & Događaji</a>
+                        <div class="pomocnidiv">
+                            <ul class="pomocneliste">
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="sobe za sastanke.html">Sobe za sastanke</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="specijalni događaji.html">Specijalni
+                                            događaji</a></div>
+                                </li>
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="event planeri.html">Event planeri</a></div>
+                                </li>
+                            </ul>
+                        </div>
 
-            <ul id="glavnalista">
-                <li><a class="linkovi1" href="bjelašnica.html">Bjelašnica</a>
-                    <div class = "pomocnidiv">
-                        <ul class="pomocneliste">
-                            <li><div id = "bojenje"><a id ="linkovi3" href="zimske aktivnosti.html">Zimske aktivnosti</a></div></li>
-                            <li><div id = "bojenje"><a id ="linkovi3" href="ljetne aktivnosti.html">Ljetne aktivnosti</a></div></li>
-                            <li><div id = "bojenje"><a id ="linkovi3" href="izlet.html">Planirajte izlet</a></div></li>
-                        </ul>
-                    </div>
+                    </li>
+                </ul>
 
-                </li>
-            </ul>
+                <ul id="glavnalista">
+                    <li><a class="linkovi1" href="bjelašnica.html">Bjelašnica</a>
+                        <div class="pomocnidiv">
+                            <ul class="pomocneliste">
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="zimske aktivnosti.html">Zimske
+                                            aktivnosti</a></div>
+                                </li>
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="ljetne aktivnosti.html">Ljetne
+                                            aktivnosti</a></div>
+                                </li>
+                                <li>
+                                    <div id="bojenje"><a id="linkovi3" href="izlet.html">Planirajte izlet</a></div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                </ul>
 
 
-            <ul id="glavnalista">
-                <li>
-                    <a class="linkovi1" href="kontakt.html">Kontakt</a>
-                </li>
-            </ul>
-        </div>
+                <ul id="glavnalista">
+                    <li>
+                        <a class="linkovi1" href="kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
 
 
 
 
         </header>
+
+        <!--Login-->
+        <div id="cijelilogin">
+            <div id="prozorlogin">
+                <div id="closelogin" onclick="CloseLogin()">+</div>
+                <h1 id="naslovsaprozora">Login</h1>
+                <form>
+                    <input id="unos1" type="email" placeholder="Email">
+                    <input id="unos2" type="password" placeholder="Lozinka">
+                    <button id="submitlogin" type="submit">Prijavi se</button><br>
+                    <label><a href="zaboravljena sifra.html" class="forgot" id="textlabele">Zaboravili ste
+                            lozinku?</a></label>
+                </form>
+            </div>
+        </div>
     </body>
+
+    <!--Resistracija-->
+    <div id="cijelaregistracija">
+        <div id="prozorregistracija">
+            <div id="closeregistracija" onclick="CloseRegistration()">+</div>
+            <h1 id="naslovsaprozora">Registracija</h1>
+            <form>
+
+                <input type="text" placeholder="Ime" id="ime" />
+                <input type="text" placeholder="Prezime" id="prezime" />
+                <input type="email" placeholder="Email" id="email" />
+                <input type="password" placeholder="Lozinka" id="lozinka" />
+                <input type="number" placeholder="Broj telefona" id="brojtel" />
+                <button id="submitregistracija">Registriraj se</button>
+            </form>
+        </div>
+    </div>
 
 </html>

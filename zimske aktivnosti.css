@@ -1,0 +1,31 @@
+#naslov{
+    text-align: center;
+    color: #0071c2;
+    font-size: 53px;
+}
+.paragrafi{
+    color: #0071c2;
+    font-size: 30px;
+    text-align: center;
+}
+.title{
+    
+    color: #0071c2;
+    font-size: 40px;
+    text-align: center;
+    
+    
+}
+#pozadina{
+    background-image: url("image/Bjelašnicastaze.jpg");
+    background-repeat: no-repeat;
+    background-size: 1550px 650px;
+    width: 100%;
+    height: 650px;  
+   
+}
+.bojenje{
+    background-color: #0071c2;;
+    height: auto;
+    width: auto;
+}

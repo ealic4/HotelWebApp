@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <script src="https://morgan3d.github.io/include.js/include.min.js"></script>
-    <link rel="stylesheet" href="hotel.css">
-    <script src = "skripta_login_registracija.js"></script>
-    <title>Hotel</title>
-</head>
-<body>
-    
 
-  
-    <include src="header.html"></include>
-    
-    <div class= "pozadina">
-        <div>
-            <h1 id ="title">Dobrodošli u Hotel Bjelašnica</h1>
-            <button id = "rez"><a href = "rezervacija.html" id = "rezlink">Rezerviši</a></button>
-    `   </div>
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://morgan3d.github.io/include.js/include.min.js"></script>
+        <link rel="stylesheet" href="hotel.css">
+        <script src="skripta_login_registracija.js"></script>
+        <title>Hotel</title>
+    </head>
 
-        <div class = "divpom">
-            <button class = "bh"><a href="galerija.html" class = "hlink">Galerija</a></button><br>
-            <button class = "bh"><a href="ponude.html" class = "hlink">Ponude</a></button><br>
-            <button class = "bh"><a href ="cjenovnici.html" class = "hlink">Cjenovnici</a></button><br>
-            
+    <body>
+
+
+
+        <include src="header.html"></include>
+
+        <div id="pozadina">
+            <div>
+                <h1 id="title">Dobrodošli u Hotel Bjelašnica</h1>
+                <div id="pomjeri"><a href="rezervacija.html" id="rezlink">Rezerviši</a></div>
+                <p class="paragraf">Otkrijte Hotel Bjelašnicu<br> novu vrstu luksuza u srcu planine Bjelašnice
+                    </p>
+
+                
+            </div>
+
+            <div id="padding">
+                <div class="padding1"><a href="galerija.html" class="hlink" id="duzina1">Galerija</a></div>
+                <div class="padding1"><a href="ponude.html" class="hlink" id="duzina2">Ponude</a></div>
+                <div class="padding1"></div><a href="cjenovnik.html" class="hlink" id="duzina3">Cjenovnik</a>
+            </div>
+
         </div>
-    </div>
-    <div></div>
-    
-    
-    
-   
-    <include src="footer.html"></include>
-    
-    
-</body>
+
+        </div>
+
+
+
+
+
+        <include src="footer.html"></include>
+
+
+    </body>
+
 </html>

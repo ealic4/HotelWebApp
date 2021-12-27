@@ -29,3 +29,6 @@
     height: auto;
     width: auto;
 }
+body{
+    margin: 0;
+}

@@ -63,3 +63,9 @@
 .pomjeri{
     padding-top: 50px;
 }
+#margin{
+    margin-left: 2px;
+}
+body{
+    margin: 0;
+}

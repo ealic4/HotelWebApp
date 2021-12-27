@@ -1,0 +1,20 @@
+#glavninaslov{
+    font-size: 53px;
+    color: #0071c2;
+    text-align: center;
+}
+#sporedninaslovi{
+    font-size: 40px;
+    color: #0071c2;
+    text-align: center;
+    background-color: #d9e7fc;
+
+}
+.paragrafi{
+    font-size: 20px;
+    color: #0071c2;
+    text-align: center;
+}
+body{
+    margin: 0;
+}

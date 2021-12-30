@@ -11,3 +11,9 @@ function OpenWindowRegistration(){
 function CloseRegistration(){
     document.getElementById("cijelaregistracija").style.display = "none";
 }
+function OpenWindowReservation(){
+    document.getElementById("cijelarezervacija").style.display = "flex";
+}
+function CloseReservation(){
+    document.getElementById("cijelarezervacija").style.display = "none";
+}

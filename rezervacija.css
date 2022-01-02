@@ -1,3 +1,55 @@
 body{
     margin: 0;
 }
+#glavninaslov{
+    text-align: center;
+    color: #0071c2;
+    font-size: 65px;
+}
+#naslov{
+    color: #0071c2;
+    font-size: 40px;
+}
+.paragrafi{
+    color: white;
+    font-size: 25px;
+}
+#glavnigrid{
+    display: grid;
+    grid-template-columns: auto 20px auto;
+    background-color: rgba(0, 113, 194,0.9);
+    
+}
+#grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+.vl {
+    border-left: 2px solid white;
+    height: 200px;
+}
+.button-bar{
+    margin: 20px 20px 20px 0px;
+   
+    float: right;
+}
+#rezervisi{
+    color: white;
+    background-color: #0071c2;
+    border: #0071c2;
+    font-size: 25px;
+    border-radius: 30px;
+    width: 130px;
+    height: 40px;
+}
+#otkazi{
+    font-size: 25px;
+    border-radius: 30px;
+    width: 130px;
+    height: 40px;
+}
+.napomenatext{
+   
+    height: 80px;
+}

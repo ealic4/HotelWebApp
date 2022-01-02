@@ -1,20 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <script src="https://morgan3d.github.io/include.js/include.min.js"></script>
-    <link rel="stylesheet" href = "korisnički račun.css">
-    <script src = "skripta_login_registracija.js"></script>
-    <title>Korisnički račun</title>
-</head>
-<body>
-    <include src="header.html"></include>
-    
+
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://morgan3d.github.io/include.js/include.min.js"></script>
+        <link rel="stylesheet" href="korisnički račun.css">
+        <script src="skripta_login_registracija.js"></script>
+        <title>Korisnički račun</title>
+    </head>
+
+    <body>
+        <a href="javascript:history.back()" class="link">Nazad</a><br>
+        <div id="div">
+            <label id="imekorisnika">Ime </label>
+            <label id="prezimekorisnika">Prezime</label>
+        </div>
+
+        <div class="tab">
+            <button class="tablinks button1" onclick="openFunction(event, 'Izmjenaprofila')">Izmjena profila</button>
+            <button class="tablinks button1" onclick="openFunction(event, 'PHR')">Pregled historije rezervacija</button>
+            <button class="tablinks button1" onclick="openFunction(event, 'Rezervacija')">Rezervacija</button>
+            <button class="tablinks button1" onclick="openFunction(event, 'Izmjenirezervaciju')">Izmjeni
+                rezervaciju</button>
+            <button class="tablinks button1" onclick="openFunction(event, 'Obrisirezervaciju')">Obriši rezervaciju</button>
+        </div>
+
+        <div id="Izmjenaprofila" class="tabcontent">
+            <form>
+                <input type="text" placeholder="Ime" id="ime" />
+                <input type="text" placeholder="Prezime" id="prezime" />
+                <input type="email" placeholder="Email" id="email" />
+                <input type="password" placeholder="Lozinka" id="lozinka" />
+                <input type="password" placeholder="Potvrdi lozinku" id="potvrdilozinku" />
+                <input type="number" placeholder="Broj telefona" id="brojtel" />
+                <button type="button" id="submitpromjene">Sačuvaj izmjene</button>
+            </form>
+        </div>
+        <div id="PHR" class="tabcontent">
+            <h3>Historija</h3>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+
+        <div id="Rezervacija" class="tabcontent">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p>
+        </div>
+
+        <div id="Izmjenirezervaciju" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+        <div id="Obrisirezervaciju" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+
+        <div class="padding1"></div><a href="cjenovnik.html" class="hlink" id="duzina3">Odjava</a>
 
 
-    
-   
-    <include src="footer.html"></include>
-    
-</body>
+    </body>
+
 </html>

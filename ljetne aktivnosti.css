@@ -37,8 +37,7 @@
     margin-left: 100px;  
 }
 .prosvjetljenje{
-    background-color: #0071c2;
-    opacity: 0.9;
+    background-color: rgba(0, 113, 194,0.9);
     margin-top: -32px; 
 }
 #pozadina1{

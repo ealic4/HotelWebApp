@@ -83,9 +83,8 @@ body{
     text-align: center;
     margin-left: 120px;
     margin-right:  120px;
-    
-    background-color: #d9e7fc;
-    opacity: 0.9;
+    background-color: rgba(217, 231, 252,0.9);
+   
     width: fit-content;
     height: fit-content;
 }

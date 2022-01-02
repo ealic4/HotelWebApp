@@ -1,20 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <script src="https://morgan3d.github.io/include.js/include.min.js"></script>
-    <link rel="stylesheet" href="rezervacija.css">
-    <script src = "skripta_login_registracija.js"></script>
-    <title>Rezervacija</title>
-</head>
-<body>
-    <include src="header.html"></include>
-    
 
-    
-    
-   
-    <include src="footer.html"></include>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://morgan3d.github.io/include.js/include.min.js"></script>
+        <link rel="stylesheet" href="rezervacija.css">
+        <script src="skripta_login_registracija.js"></script>
+        <title>Rezervacija</title>
+    </head>
+
+    <body>
+        <include src="header.html"></include>
+        <h1 id = "glavninaslov">Rezervacija</h1>
+        <div>
+            <h1 id = "naslov">Vaš boravak</h1>
+            <div id="glavnigrid">
+                <div id="grid">
+
+                    <div>
+                        <label class="paragrafi">Broj odraslih*</label><br>
+                        <input type="number" value="0">
+                    </div>
+
+                    <div>
+                        <label class="paragrafi">Broj djece do 5 godina*</label><br>
+                        <input type="number" value="0">
+                    </div>
+
+                    <div>
+                        <label class="paragrafi">Broj djece od 5 do 12 godina*</label><br>
+                        <input type="number" value="0">
+                    </div>
+                    <div>
+                        <label class="paragrafi">Tip smještaja*</label><br>
+                        <select>
+                            <option>Apartman Studio</option>
+                            <option>Apartman Family</option>
+                            <option>Soba Comfort</option>
+                            <option>Soba Standard</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="paragrafi">Datum dolaska*</label><br>
+                        <input type="date">
+                    </div>
+
+                    <div>
+                        <label class="paragrafi">Datum odlaska*</label><br>
+                        <input type="date">
+                    </div>
+
+                    <div>
+                        <label class="paragrafi">Napomena</label><br>
+                        <input type="text" class = "napomenatext">
+                    </div>
+
+                </div>
+
+
+
+
+
+                <!--Drugi-->
+                <div class="vl"></div>
+                <!--Treci-->
+                <div>
+                    <div>
+                        <input type="radio">
+                        <label class="paragrafi">Plaćanje pri rezervacij</label>
+                    </div>
+                    <div>
+                        <input placeholder="0000 0000 0000 0000">
+                        <input placeholder="MM/GG">
+                        <input placeholder="CVV">
+                    </div>
+                    <div>
+                        <label class="paragrafi">Ime vlasnika kartice*</label><br>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <input type="radio">
+                        <label class="paragrafi">Naknadno plaćanje</label>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class = "button-bar">
+          <button id = "rezervisi">Rezerviši</button>
+          <button id = "otkazi">Otkaži</button>
+        </div>
+
+
+        <include src="footer.html"></include>
+
+    </body>
+
 </html>

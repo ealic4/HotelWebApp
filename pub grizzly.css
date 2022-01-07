@@ -1,3 +1,21 @@
-body{
-    margin: 0;
+#naslov{
+    color: #0071c2;
+    text-align: center;
+    font-size: 50px;
+    background-color: #d9e7fc;
+}
+
+.still{
+ 
+    background-color:  #d9e7fc;
+}
+.paragrafi{
+        color: #0071c2;
+        font-size: 30px; 
+        padding-left: 170px;
+}
+.paragraf{
+    color: #0071c2;
+    font-size: 26px; 
+    text-align: center;
 }

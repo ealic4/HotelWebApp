@@ -13,9 +13,12 @@
     margin-bottom: auto;
     margin-left: 50px;
     margin-top: 200px;
-    margin-right: 800px;
+    margin-right: 400px;
     opacity: 80%;
     color: white;
+}
+#par{
+    font-size: 26px;
 }
 #title{
     color: white;
